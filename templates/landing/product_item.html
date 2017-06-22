@@ -17,18 +17,8 @@
         <div>
             {{ product_image.product.price }} &#8381
             <div class="add-to-card-btn">
-            <a href="{% url 'product' product_image.product.id %}" type="submit" class="btn btn-success">Купить</a>
-{#            <button class="btn btn-success">#}
-{#                Купить#}
-{#            </button>#}
-        </div>
-        </div>
-
-        <div class="add-to-card-btn">
-            <a href="{% url 'product' product_image.product.id %}" type="submit" class="btn btn-success">Купить</a>
-{#            <button class="btn btn-success">#}
-{#                Купить#}
-{#            </button>#}
+                <a href="{% url 'product' product_image.product.id %}" type="submit" class="btn btn-success">Купить</a>
+            </div>
         </div>
     </div>
 </div>
